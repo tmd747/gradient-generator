@@ -1,0 +1,79 @@
+html {
+    height: 100%;
+}
+
+body {
+    font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    background: linear-gradient(to right, #2684f7, #f5383d);
+    margin-top: 100px;
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .45em;
+    width: 100%;
+    text-shadow: 3px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+   font: 200 2em 'Raleway', sans-serif;
+   margin-top: 50px;
+}
+
+h3 {
+    font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+
+p {
+    font: 200 1em 'Raleway', sans-serif;
+}
+
+#random {
+    font: 600 1em 'Raleway', sans-serif;
+    letter-spacing: 0.2em;
+    border-radius: 15px;
+    color: rgba(0,0,0,.7);
+    text-transform: uppercase;
+    margin-top: 30px;
+    background: linear-gradient(to right, rgb(254, 163, 170), rgb(248, 184, 139), rgb(250, 248, 132), rgb(186, 237, 145), rgb(178, 206, 254), rgb(242, 162, 232));
+    border: 3px solid rgba(0,0,0,.8);
+    padding: 15px 20px;
+    transition: all 200ms ease;
+    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.5);
+}   
+
+button:hover {
+    transform: perspective(1px) scale(1.05);
+    cursor: pointer;
+}
+
+button:focus, button:active {
+   outline: none;
+
+   border: none;
+}
+
+input {
+ width: 110px;
+ height: 40px;
+ border: 2px solid rgba(0,0,0, .7);
+ background: rgba(0,0,0, .8); 
+ cursor: pointer;
+}
+
+input:focus, input:active {
+    outline: 2px solid rgba(255,255,255, .7); !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+}
